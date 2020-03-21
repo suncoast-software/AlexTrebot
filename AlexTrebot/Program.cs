@@ -52,7 +52,7 @@ namespace AlexTrebot
 
             var serverTimer = new ServerTimerService();
             
-            Console.WriteLine(String.Format("{0}\t \t Gateway \tServer Started", DateTime.Now.ToLongTimeString()));
+            Console.WriteLine(String.Format("{0}\t Gateway \tServer Started", DateTime.Now.ToLongTimeString()));
             await Task.Delay(-1);
         }
 
