@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AlexTrebot.Handlers
 {
-    public class TriviaGame : ModuleBase<SocketCommandContext>
+    public class TriviaGame
     {
         public Queue<Question> Questions { get; set; }
 
